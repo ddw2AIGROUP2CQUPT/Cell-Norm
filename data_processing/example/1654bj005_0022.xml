@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<doc>
+	<path>1654bj005\0022.png</path>
+	<outputs>
+		<object>
+			<item>
+				<name>异常</name>
+				<bndbox>
+					<xmin>722</xmin>
+					<ymin>7</ymin>
+					<xmax>830</xmax>
+					<ymax>172</ymax>
+				</bndbox>
+			</item>
+		</object>
+	</outputs>
+	<time_labeled>1576580923855</time_labeled>
+	<labeled>true</labeled>
+	<size>
+		<width>2048</width>
+		<height>2048</height>
+		<depth>3</depth>
+	</size>
+</doc>
