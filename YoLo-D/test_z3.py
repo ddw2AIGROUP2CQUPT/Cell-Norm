@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Test script for DualP0P3 integration
-Tests the new dualp0p3 integration type with DINO enhancement at P0 (input) and P3 (backbone) levels
+Test script for z1 integration
+Tests the new z1 integration type with DINO enhancement at  and z1 (backbone) levels
 """
 
 import sys
