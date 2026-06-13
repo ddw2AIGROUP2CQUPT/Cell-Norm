@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test the dualp0p3 config path resolution fix
+Test the z1 config path resolution fix
 """
 
 import sys
