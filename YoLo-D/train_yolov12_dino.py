@@ -2,20 +2,11 @@
 """
 YOLOv12 + DINOv3 Systematic Training Script
 
-This script provides a comprehensive training interface for YOLOv12 models with optional DINOv3 enhancement,
-including full hyperparameter control for learning rate, optimization, data augmentation, and more.
-
 Basic Usage Examples:
     # Base YOLOv12 (no DINO enhancement) - Pure YOLOv12
     python train_yolov12_dino.py --data coco.yaml --yolo-size s --epochs 100
 
-    # Single integration (P0 input preprocessing) - Most stable
-    python train_yolov12_dino.py --data coco.yaml --yolo-size s --dino-variant vitb16 --integration single --epochs 100
-
-    # Dual integration (P3+P4 backbone) - High performance
-    python train_yolov12_dino.py --data coco.yaml --yolo-size l --dino-variant vitl16 --integration dual --epochs 200
-
-    # DualP0P3 integration (P0+P3) - Optimized dual enhancement
+    # z1  - Optimized dual enhancement
     python train_yolov12_dino.py --data coco.yaml --yolo-size m --dino-variant vitb16 --integration dualp0p3 --epochs 150
 
 Advanced Hyperparameter Examples:
